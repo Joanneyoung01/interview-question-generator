@@ -19,7 +19,7 @@ export default class Questions extends React.Component{
       "What digital trends excite you?",
       "What do you like to do outside of coding?",
       "What was your experience like at Makers?",
-      "Tell me about your last role at Beamly?",
+      "Tell me about your last role?",
       "What makes you different from other Makers graduates?"
     ]
     this.state = {
