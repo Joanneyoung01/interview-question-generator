@@ -53,8 +53,9 @@ export default class Questions extends React.Component{
     return (
       <div className="grid-container fluid">
         <div className="grid-x">
+          <h3 className="question subheader cell text-center">General question</h3>
           <form className="cell text-center" onSubmit={this.onSubmit}>
-            <input className="button secondary expand text-center btn btn-light" type="submit" value="Submit"/>
+            <input className="button secondary expand text-center btn btn-light" type="submit" value="Reveal Question"/>
             <div className="text-center" id ="output-text"></div>    
           </form>
         </div>

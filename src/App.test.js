@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from './App';
+import Header from './components/header.component';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders the app', () => {
+  const { getByText } = render(<Header />);
+  const text = getByText(/Interview Question Generator/i);
+  expect(text).toBeInTheDocument();
 });
