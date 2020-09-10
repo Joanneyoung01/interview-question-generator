@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Questions extends React.Component{
+export default class General extends React.Component{
 
   constructor(){
     super();

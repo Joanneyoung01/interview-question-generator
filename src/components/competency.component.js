@@ -20,10 +20,16 @@ export default class Competency extends React.Component{
       "Give an example of a situation where you solved a problem in a creative way.",
       "Tell me about a time that you made a decision and then changed your mind.",
       "Describe a situation where you were asked to do something that you'd never attempted previously.",
-      "Tell me about a time when you achieved success even when the odds were stacked against you."
+      "Tell me about a time when you achieved success even when the odds were stacked against you.",
+      'Tell me about a project that has failed',
+      'Tell me about a project that has really excited you',
+      'Explain more precisely a functionality you worked on in that project.',
+      'Draw out a system that you’ve worked on most recently or you’ve enjoyed doing',
+      'Sketch out the architecture of a recent project and talk me through the decisions you made building it.',
+      'In a team project, how did your team prioritize what to do?'      
     ]
     this.state = {
-      question: '',
+      question: "",
      }
   }
 
