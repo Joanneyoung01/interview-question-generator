@@ -24,7 +24,6 @@ export default class Process extends React.Component{
     'How do you prioritize your testing? What factors might influence your decisions?',
     'What are the benefits of pairing? Is pairing always a good thing?',
     'Why are “hackers” or “hacky code” looked down upon? Doesn’t it mean you write quicker code?',
-    'What are Kent Beck’s design principles?',
     'What are the Software Craftsmanship principles and what do they mean to you?',
     'How do you write quality software?',
     'What is Kanban?',
@@ -53,7 +52,6 @@ export default class Process extends React.Component{
     'How has your previous experience helped you become a better developer?',
     'What would you like to be doing in three years time?'
   ];
-
     this.state = {
       question: '',
      }
@@ -77,7 +75,7 @@ export default class Process extends React.Component{
     event.preventDefault();
     var question = this.randomizer()
     console.log(question)
-    var output = document.getElementById(`output-text-motivation-${this.props.name}`)
+    var output = document.getElementById(`output-text-process-${this.props.name}`)
     output.innerHTML = question
   }
 

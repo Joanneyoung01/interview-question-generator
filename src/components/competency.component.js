@@ -25,7 +25,6 @@ export default class Competency extends React.Component{
       'Tell me about a project that has really excited you',
       'Explain more precisely a functionality you worked on in that project.',
       'Draw out a system that you’ve worked on most recently or you’ve enjoyed doing',
-      'Sketch out the architecture of a recent project and talk me through the decisions you made building it.',
       'In a team project, how did your team prioritize what to do?'      
     ]
     this.state = {
